@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+    	<TextView
+    	    android:id="@+id/nama_mhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dip"
+            android:paddingTop="6dip"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:textStyle="bold" />   
+      
+        <TextView
+            android:id="@+id/npm_mhs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="1dip"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="italic"/> 
+            
+        <TextView
+            android:id="@+id/kode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>         
+
+    
+</LinearLayout>

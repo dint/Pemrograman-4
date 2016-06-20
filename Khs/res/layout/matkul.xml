@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
+        
+        <!--  <TextView
+            android:id="@+id/id_mk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dip"
+            android:paddingTop="0dip"/>-->
+            
+        <TextView
+            android:id="@+id/id_mk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    
+        <TextView
+            android:id="@+id/npm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dip"
+                android:paddingTop="1dip"
+                android:text="@string/sem"
+                android:textColor="#dc6800"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+                        
+
+            <TextView
+                android:id="@+id/semester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dip"
+                android:paddingTop="1dip"
+                android:textColor="#dc6800"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+            
+        <TextView
+            android:id="@+id/nama_mk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dip"
+            android:paddingTop="1dip"
+            android:textColor="#dc6800"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        
+       
+    
+</LinearLayout>

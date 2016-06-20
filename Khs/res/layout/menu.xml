@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backroundkhs"
+    android:gravity="center_vertical"
+    > 
+    
+<Button
+    android:id="@+id/lihat_khs"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="4dip"
+    android:background="@drawable/pnl"
+    android:text="@string/lihat"
+    android:textStyle="bold"
+    android:textColor="#ffffff" />
+ 
+<Button
+    android:id="@+id/cari_khs"
+	android:layout_gravity="center"
+	android:layout_width="250dp"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="4dip"
+	android:background="@drawable/pnl"
+	android:textColor="#ffffff"
+    android:textStyle="bold"
+	android:text="@string/carikh"
+	/> 
+
+<Button
+    android:id="@+id/mhs"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="4dip"
+    android:background="@drawable/pnl"
+    android:text="@string/bio"
+    android:textColor="#ffffff"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/keluar"
+	android:layout_gravity="center"
+	android:layout_width="250dp"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="4dip"
+	android:background="@drawable/pnl"
+	android:textColor="#ffffff"
+    android:textStyle="bold"
+	android:text="@string/keluar"
+	/> 	   
+
+</LinearLayout>

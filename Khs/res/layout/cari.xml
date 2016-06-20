@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backroundkhs"
+    >
+    
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingBottom="2dip"
+               android:paddingTop="2dip"
+			   android:layout_margin="5dp"
+               android:text="Masukkan NPM:"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="14sp"
+               android:textStyle="bold" /> 
+    
+<EditText
+    android:id="@+id/txtnpm"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:textSize="14sp"
+	android:layout_margin="5dp"
+	android:background="#ffffff"
+	android:textColor="#124004"> 
+	<requestFocus />
+	</EditText>  
+	
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingBottom="2dip"
+               android:paddingTop="2dip"
+			   android:layout_margin="5dp"
+               android:text="Masukkan Semester:"
+               android:textAlignment="center"
+               android:textColor="#ffffff"
+               android:textSize="14sp"
+               android:textStyle="bold" /> 
+    
+<EditText
+    android:id="@+id/txtsem"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:textSize="14sp"
+	android:layout_margin="5dp"
+	android:background="#ffffff"
+	android:textColor="#124004"> 
+	</EditText>
+
+
+<Button	
+	android:id="@+id/button_cari"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Cari KHS"
+	/>
+
+<EditText
+    android:id="@+id/warning"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:padding="10dp"
+    android:textColor="#ffffff"
+    android:textSize="14sp"
+    android:textStyle="italic"
+    android:typeface="sans" >
+ 
+	</EditText>
+
+<Button
+    android:id="@+id/back"
+	android:layout_gravity="center"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="0dip"
+	android:background="@drawable/pnl"
+	android:textColor="#ffffff"
+    android:textStyle="bold"
+	android:text="@string/kembali"
+	/>
+ 
+</LinearLayout>

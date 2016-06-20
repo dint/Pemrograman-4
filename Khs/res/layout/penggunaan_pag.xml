@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/backroundkhs"
+android:padding="1dp"
+tools:context=".MainActivity" >
+ 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_weight="0.57"
+        android:background="#ffffff"
+        android:scrollbars="horizontal" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonKiri"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/pre" />
+
+        <Button
+            android:id="@+id/buttonKanan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/next" />
+    </LinearLayout>
+        	<Button
+    	    android:id="@+id/back"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginBottom="0dip"
+    	    android:background="@drawable/pnl"
+    	    android:text="@string/kembali"
+    	    android:textColor="#ffffff"
+    	    android:textStyle="bold" />
+</LinearLayout>
+ 
+</RelativeLayout>

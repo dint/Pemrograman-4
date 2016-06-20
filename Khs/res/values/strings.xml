@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Khs</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="penggunaan">Penggunaan Aplikasi</string>
+    <string name="lihat">Lihat KHS</string>
+    <string name="carikh">Cari KHS</string>
+    <string name="bio">Biodata Mahasiswa</string>
+    <string name="keluar">Keluar</string>
+    <string name="nama_mhs">Nama Mahasiswa :</string>
+    <string name="npm_mhs">Npm Mahasiswa :</string>
+    <string name="sem_khs">Semester :</string>
+    <string name="mk_khs">Mata Kuliah :</string>
+    <string name="nilai">Nilai :</string>
+    <string name="kembali">Back to Menu</string>
+    <string name="kembali_1">Back</string>
+    <string name="alamat_mhs">Alamat Mahasiswa :</string>
+    <string name="jk">Jenis Kelamin :</string>
+    <string name="nope_mhs">No. Hp Mahasiswa :</string>
+    <string name="angkatan">Angkatan :</string>
+    <string name="sem">Semester</string>
+    <string name="pre">Previews</string>
+    <string name="next">Next</string>
+
+</resources>
